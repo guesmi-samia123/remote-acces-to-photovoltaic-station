@@ -1,0 +1,5 @@
+//MO033-034.TXT ANA00033 TO ANA00034
+environnement		NFI		nouveau fichier
+Contrainte_appareille_temperature		NWL	appareille (IDappareille) et temperature (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et temperature (IDappareille)
+Contrainte_appareille_environnement		NWL	appareille (IDappareille) et environnement (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et environnement (IDappareille)
+Contrainte_appareille_temperature		DEL	appareille (IDappareille) et temperature (IDappareille)	Liaison supprimée entre les fichiers appareille (IDappareille) et temperature (IDappareille)

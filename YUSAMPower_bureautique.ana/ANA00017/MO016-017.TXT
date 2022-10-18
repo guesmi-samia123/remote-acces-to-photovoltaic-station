@@ -1,0 +1,4 @@
+//MO016-017.TXT ANA00016 TO ANA00017
+appareille	Photo	RUB+		Photo est une nouvelle rubrique
+appareille	image_appareille	RUB-		la rubrique image_appareille est supprimée
+appareille	Photo	RRN		

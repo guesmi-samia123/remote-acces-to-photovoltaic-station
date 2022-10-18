@@ -1,0 +1,7 @@
+//MO051-052.TXT ANA00051 TO ANA00052
+intervenant		NFI		nouveau fichier
+intervenant		FIC-	intervenant	Fichier supprimé intervenant
+Contrainte_superviseur_intervenant		NWL	superviseur (IDsuperviseur) et intervenant (IDsuperviseur)	Nouvelle liaison entre les fichiers superviseur (IDsuperviseur) et intervenant (IDsuperviseur)
+Contrainte_panne_intervenant		NWL	panne (IDpanne) et intervenant (IDpanne)	Nouvelle liaison entre les fichiers panne (IDpanne) et intervenant (IDpanne)
+Contrainte_superviseur_intervenant		DEL	superviseur (IDsuperviseur) et intervenant (IDsuperviseur)	Liaison supprimée entre les fichiers superviseur (IDsuperviseur) et intervenant (IDsuperviseur)
+Contrainte_panne_intervenant		DEL	panne (IDpanne) et intervenant (IDpanne)	Liaison supprimée entre les fichiers panne (IDpanne) et intervenant (IDpanne)

@@ -1,0 +1,27 @@
+//MO002-003.TXT ANA00002 TO ANA00003
+notification_systeme		TAR	135	nouvelle taille enregistrement : 135
+notification_systeme	IDdate_heure	RUB+		IDdate_heure est une nouvelle clé
+solution		TAR	135	nouvelle taille enregistrement : 135
+solution	IDdate_heure	RUB+		IDdate_heure est une nouvelle clé
+panne		TAR	136	nouvelle taille enregistrement : 136
+panne	IDdate_heure	RUB+		IDdate_heure est une nouvelle clé
+archive_panne		TAR	25	nouvelle taille enregistrement : 25
+archive_panne	IDdate_heure	RUB+		IDdate_heure est une nouvelle clé
+batterie		TAR	29	nouvelle taille enregistrement : 29
+batterie	IDdate_heure	RUB+		IDdate_heure est une nouvelle clé
+onduleur		TAR	47	nouvelle taille enregistrement : 47
+onduleur	IDdate_heure	RUB+		IDdate_heure est une nouvelle clé
+environement_installation	IDdate_heure	RUB+		IDdate_heure est une nouvelle clé
+environement_installation	IDdate_heure	RUB-		la clé IDdate_heure est supprimée
+statistique		TAR	396	nouvelle taille enregistrement : 396
+statistique	IDdate_heure	RUB+		IDdate_heure est une nouvelle clé
+date_heure		TAR	23	nouvelle taille enregistrement : 23
+date_heure		IDE-*		fichier sans identifiant
+date_heure	dat	CLEU*		la rubrique dat est maintenant une clé
+date_heure	dat	RDP+		
+date_heure	heure	CLEU*		la rubrique heure est maintenant une clé
+date_heure	heure	RDP+		
+date_heure	IDdate_heure	RUB-		la clé IDdate_heure est supprimée
+rapport_installation		TAR	396	nouvelle taille enregistrement : 396
+rapport_installation	IDdate_heure	RUB+		IDdate_heure est une nouvelle clé
+Contrainte_installation_environement_installation		MCL	0,1->0,n	

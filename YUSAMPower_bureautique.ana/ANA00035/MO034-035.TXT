@@ -1,0 +1,9 @@
+//MO034-035.TXT ANA00034 TO ANA00035
+temperature		FIC-	temperature	Fichier supprimé temperature
+vitesse_vente		FIC-	vitesse_vente	Fichier supprimé vitesse_vente
+hummidite		FIC-	hummidite	Fichier supprimé hummidite
+Contrainte_appareille_pluviometrie		NWL	appareille (IDappareille) et pluviometrie (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et pluviometrie (IDappareille)
+Contrainte_appareille_temperature		DEL	appareille (IDappareille) et temperature (IDappareille)	Liaison supprimée entre les fichiers appareille (IDappareille) et temperature (IDappareille)
+Contrainte_appareille_vitesse_vente		DEL	appareille (IDappareille) et vitesse_vente (IDappareille)	Liaison supprimée entre les fichiers appareille (IDappareille) et vitesse_vente (IDappareille)
+Contrainte_appareille_hummidite		DEL	appareille (IDappareille) et hummidite (IDappareille)	Liaison supprimée entre les fichiers appareille (IDappareille) et hummidite (IDappareille)
+Contrainte_appareille_pluviometrie		DEL	appareille (IDappareille) et pluviometrie (IDappareille)	Liaison supprimée entre les fichiers appareille (IDappareille) et pluviometrie (IDappareille)

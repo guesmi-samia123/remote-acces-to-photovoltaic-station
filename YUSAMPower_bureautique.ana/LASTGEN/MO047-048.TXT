@@ -1,0 +1,4 @@
+//MO047-048.TXT ANA00047 TO ANA00048
+bloc_pv		TAR	80	nouvelle taille enregistrement : 80
+bloc_pv	IDinstallation	RUB+		IDinstallation est une nouvelle clé
+Contrainte_installation_bloc_pv		NWL	installation (IDinstallation) et bloc_pv (IDinstallation)	Nouvelle liaison entre les fichiers installation (IDinstallation) et bloc_pv (IDinstallation)

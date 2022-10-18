@@ -1,0 +1,2 @@
+//MO041-042.TXT ANA00041 TO ANA00042
+superviseur	login	CLE-*		la rubrique login n'est plus une clé

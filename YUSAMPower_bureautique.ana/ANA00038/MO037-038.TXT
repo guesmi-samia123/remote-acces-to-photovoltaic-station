@@ -1,0 +1,3 @@
+//MO037-038.TXT ANA00037 TO ANA00038
+energie_solaire		NFI		nouveau fichier
+Contrainte_appareille_energie_solaire		NWL	appareille (IDappareille) et energie_solaire (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et energie_solaire (IDappareille)

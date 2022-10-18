@@ -1,0 +1,17 @@
+//MO032-033.TXT ANA00032 TO ANA00033
+appareille		TAR	135	nouvelle taille enregistrement : 135
+appareille	numero_bloc	RUB-		la rubrique numero_bloc est supprimée
+Contrainte_appareille_panne		NWL	appareille (IDappareille) et panne (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et panne (IDappareille)
+Contrainte_appareille_tension_batterie		NWL	appareille (IDappareille) et tension_batterie (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et tension_batterie (IDappareille)
+Contrainte_appareille_intensite_pv		NWL	appareille (IDappareille) et intensite_pv (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et intensite_pv (IDappareille)
+Contrainte_appareille_temperature		NWL	appareille (IDappareille) et temperature (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et temperature (IDappareille)
+Contrainte_appareille_vitesse_vente		NWL	appareille (IDappareille) et vitesse_vente (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et vitesse_vente (IDappareille)
+Contrainte_appareille_hummidite		NWL	appareille (IDappareille) et hummidite (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et hummidite (IDappareille)
+Contrainte_appareille_pluviometrie		NWL	appareille (IDappareille) et pluviometrie (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et pluviometrie (IDappareille)
+Contrainte_appareille_pluviometrie		DEL	appareille (IDappareille) et pluviometrie (IDappareille)	Liaison supprimée entre les fichiers appareille (IDappareille) et pluviometrie (IDappareille)
+Contrainte_appareille_tension_batterie		DEL	appareille (IDappareille) et tension_batterie (IDappareille)	Liaison supprimée entre les fichiers appareille (IDappareille) et tension_batterie (IDappareille)
+Contrainte_appareille_intensite_pv		DEL	appareille (IDappareille) et intensite_pv (IDappareille)	Liaison supprimée entre les fichiers appareille (IDappareille) et intensite_pv (IDappareille)
+Contrainte_appareille_temperature		DEL	appareille (IDappareille) et temperature (IDappareille)	Liaison supprimée entre les fichiers appareille (IDappareille) et temperature (IDappareille)
+Contrainte_appareille_vitesse_vente		DEL	appareille (IDappareille) et vitesse_vente (IDappareille)	Liaison supprimée entre les fichiers appareille (IDappareille) et vitesse_vente (IDappareille)
+Contrainte_appareille_hummidite		DEL	appareille (IDappareille) et hummidite (IDappareille)	Liaison supprimée entre les fichiers appareille (IDappareille) et hummidite (IDappareille)
+Contrainte_appareille_panne		DEL	appareille (IDappareille) et panne (IDappareille)	Liaison supprimée entre les fichiers appareille (IDappareille) et panne (IDappareille)

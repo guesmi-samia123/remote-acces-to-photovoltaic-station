@@ -1,0 +1,30 @@
+//MO000-001.TXT ANA00000 TO ANA00001
+evenement_notif		NFI		nouveau fichier
+notification_systeme		NFI		nouveau fichier
+notification_user		NFI		nouveau fichier
+superviseur		NFI		nouveau fichier
+administrateur		NFI		nouveau fichier
+session		NFI		nouveau fichier
+installation		NFI		nouveau fichier
+bloc_pv		NFI		nouveau fichier
+solution		NFI		nouveau fichier
+panne		NFI		nouveau fichier
+archive_panne		NFI		nouveau fichier
+appareille		NFI		nouveau fichier
+batterie		NFI		nouveau fichier
+onduleur		NFI		nouveau fichier
+environement_installation		NFI		nouveau fichier
+statistique		NFI		nouveau fichier
+date_heure		NFI		nouveau fichier
+rapport_installation		NFI		nouveau fichier
+superviseur	mail_user	RRM		
+superviseur	Adresse	RRN		
+superviseur	sexe	RRM		
+superviseur	etat_compte	RRN		
+session	password	RRN		
+installation	adresse_installation	RRN		
+panne	etat_panne	RRM		
+onduleur	etat_courant	RRN		
+statistique	fichier_stat	RRN		
+installation	Pays	RRN		
+rapport_installation	fichier_rapport	RRN		

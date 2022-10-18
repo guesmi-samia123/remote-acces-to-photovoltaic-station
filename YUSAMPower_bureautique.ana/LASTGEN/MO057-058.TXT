@@ -1,0 +1,8 @@
+//MO057-058.TXT ANA00057 TO ANA00058
+archive_panne		TAR	281	nouvelle taille enregistrement : 281
+archive_panne	titre_panne	RUB+		titre_panne est une nouvelle rubrique
+archive_panne	description_panne	RUB+		description_panne est une nouvelle rubrique
+archive_panne	solution1	RUB+		solution1 est une nouvelle rubrique
+archive_panne	intervenant1	RUB+		intervenant1 est une nouvelle rubrique
+archive_panne	nom_appareille	RUB-		la rubrique nom_appareille est supprimée
+archive_panne	type_panne	RUB-		la rubrique type_panne est supprimée

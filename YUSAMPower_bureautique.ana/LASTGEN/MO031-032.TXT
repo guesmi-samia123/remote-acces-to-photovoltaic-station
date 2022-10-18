@@ -1,0 +1,26 @@
+//MO031-032.TXT ANA00031 TO ANA00032
+panne		NFI		nouveau fichier
+archive_panne	nom_appareille	RDP+		
+temperature		TAR	37	nouvelle taille enregistrement : 37
+temperature	IDappareille	RUB+		IDappareille est une nouvelle clé
+temperature	nom_appareille	RUB-		la rubrique nom_appareille est supprimée
+vitesse_vente		TAR	37	nouvelle taille enregistrement : 37
+vitesse_vente	IDappareille	RUB+		IDappareille est une nouvelle clé
+vitesse_vente	nom_appareille	RUB-		la rubrique nom_appareille est supprimée
+hummidite		TAR	37	nouvelle taille enregistrement : 37
+hummidite	IDappareille	RUB+		IDappareille est une nouvelle clé
+hummidite	nom_appareille	RUB-		la rubrique nom_appareille est supprimée
+tension_batterie		TAR	37	nouvelle taille enregistrement : 37
+tension_batterie	nom_appareille	RUB-		la rubrique nom_appareille est supprimée
+intensite_pv		TAR	51	nouvelle taille enregistrement : 51
+intensite_pv	IDappareille	RUB+		IDappareille est une nouvelle clé
+intensite_pv	nom_appareille	RUB-		la rubrique nom_appareille est supprimée
+panne		FIC-	panne	Fichier supprimé panne
+Contrainte_panne_solution		NWL	panne (IDpanne) et solution (IDpanne)	Nouvelle liaison entre les fichiers panne (IDpanne) et solution (IDpanne)
+Contrainte_appareille_intensite_pv		NWL	appareille (IDappareille) et intensite_pv (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et intensite_pv (IDappareille)
+Contrainte_appareille_temperature		NWL	appareille (IDappareille) et temperature (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et temperature (IDappareille)
+Contrainte_appareille_vitesse_vente		NWL	appareille (IDappareille) et vitesse_vente (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et vitesse_vente (IDappareille)
+Contrainte_appareille_hummidite		NWL	appareille (IDappareille) et hummidite (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et hummidite (IDappareille)
+Contrainte_appareille_panne		NWL	appareille (IDappareille) et panne (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et panne (IDappareille)
+Contrainte_panne_solution		DEL	panne (IDpanne) et solution (IDpanne)	Liaison supprimée entre les fichiers panne (IDpanne) et solution (IDpanne)
+panne	etat_panne	RRN		

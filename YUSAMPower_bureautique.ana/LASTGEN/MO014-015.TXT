@@ -1,0 +1,48 @@
+//MO014-015.TXT ANA00014 TO ANA00015
+superviseur		BASE		La base du fichier est passée de HFSQL Client/Serveur à HFSQL Classic
+superviseur		FCNX-	Connexion à '127.0.0.1'	
+installation		BASE		La base du fichier est passée de HFSQL Client/Serveur à HFSQL Classic
+installation		FCNX-	Connexion à '127.0.0.1'	
+bloc_pv		BASE		La base du fichier est passée de HFSQL Client/Serveur à HFSQL Classic
+bloc_pv		FCNX-	Connexion à '127.0.0.1'	
+solution		BASE		La base du fichier est passée de HFSQL Client/Serveur à HFSQL Classic
+solution		FCNX-	Connexion à '127.0.0.1'	
+panne		BASE		La base du fichier est passée de HFSQL Client/Serveur à HFSQL Classic
+panne		FCNX-	Connexion à '127.0.0.1'	
+archive_panne		BASE		La base du fichier est passée de HFSQL Client/Serveur à HFSQL Classic
+archive_panne		FCNX-	Connexion à '127.0.0.1'	
+appareille		BASE		La base du fichier est passée de HFSQL Client/Serveur à HFSQL Classic
+appareille		FCNX-	Connexion à '127.0.0.1'	
+statistique		BASE		La base du fichier est passée de HFSQL Client/Serveur à HFSQL Classic
+statistique		FCNX-	Connexion à '127.0.0.1'	
+rapport_installation		BASE		La base du fichier est passée de HFSQL Client/Serveur à HFSQL Classic
+rapport_installation		FCNX-	Connexion à '127.0.0.1'	
+historique		BASE		La base du fichier est passée de HFSQL Client/Serveur à HFSQL Classic
+historique		FCNX-	Connexion à '127.0.0.1'	
+temperature		BASE		La base du fichier est passée de HFSQL Client/Serveur à HFSQL Classic
+temperature		FCNX-	Connexion à '127.0.0.1'	
+vitesse_vente		BASE		La base du fichier est passée de HFSQL Client/Serveur à HFSQL Classic
+vitesse_vente		FCNX-	Connexion à '127.0.0.1'	
+hummidite		BASE		La base du fichier est passée de HFSQL Client/Serveur à HFSQL Classic
+hummidite		FCNX-	Connexion à '127.0.0.1'	
+pluviometrie		BASE		La base du fichier est passée de HFSQL Client/Serveur à HFSQL Classic
+pluviometrie		FCNX-	Connexion à '127.0.0.1'	
+tension_batterie		BASE		La base du fichier est passée de HFSQL Client/Serveur à HFSQL Classic
+tension_batterie		FCNX-	Connexion à '127.0.0.1'	
+intensite_pv		BASE		La base du fichier est passée de HFSQL Client/Serveur à HFSQL Classic
+intensite_pv		FCNX-	Connexion à '127.0.0.1'	
+superviseur		FRN		
+installation		FRN		
+bloc_pv		FRN		
+panne		FRN		
+archive_panne		FRN		
+statistique		FRN		
+rapport_installation		FRN		
+solution		FRN		
+historique		FRN		
+temperature		FRN		
+vitesse_vente		FRN		
+hummidite		FRN		
+pluviometrie		FRN		
+tension_batterie		FRN		
+intensite_pv		FRN		

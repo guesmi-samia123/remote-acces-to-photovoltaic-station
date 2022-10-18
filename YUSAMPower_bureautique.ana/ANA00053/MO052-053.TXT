@@ -1,0 +1,6 @@
+//MO052-053.TXT ANA00052 TO ANA00053
+installation		TAR	145	nouvelle taille enregistrement : 145
+installation	nominal_bus	RUB-		la rubrique nominal_bus est supprimée
+installation	fw_version	RUB-		la rubrique fw_version est supprimée
+installation	model	RUB-		la rubrique model est supprimée
+installation	date_maj	RUB-		la rubrique date_maj est supprimée

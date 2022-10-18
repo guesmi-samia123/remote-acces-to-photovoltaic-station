@@ -1,0 +1,10 @@
+//MO007-008.TXT ANA00007 TO ANA00008
+intensite_pv		TAR	51	nouvelle taille enregistrement : 51
+intensite_pv	value_tension_pv	RUB+		value_tension_pv est une nouvelle rubrique
+intensite_pv	value_puissance_pv	RUB+		value_puissance_pv est une nouvelle rubrique
+intensite_pv	value_temperarure_pv	RUB+		value_temperarure_pv est une nouvelle rubrique
+valeur_appareille		FIC-	valeur_appareille	Fichier supprimé valeur_appareille
+puissance_pv		FIC-	puissance_pv	Fichier supprimé puissance_pv
+temperature_pv		FIC-	temperature_pv	Fichier supprimé temperature_pv
+Contrainte_appareille_temperature_pv		DEL	appareille (IDappareille) et temperature_pv (IDappareille)	Liaison supprimée entre les fichiers appareille (IDappareille) et temperature_pv (IDappareille)
+Contrainte_appareille_puissance_pv		DEL	appareille (IDappareille) et puissance_pv (IDappareille)	Liaison supprimée entre les fichiers appareille (IDappareille) et puissance_pv (IDappareille)

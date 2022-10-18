@@ -1,0 +1,7 @@
+//MO030-031.TXT ANA00030 TO ANA00031
+appareille		TAR	139	nouvelle taille enregistrement : 139
+appareille	IDbloc_pv	RUB+		IDbloc_pv est une nouvelle clé
+tension_batterie		TAR	88	nouvelle taille enregistrement : 88
+tension_batterie	IDappareille	RUB+		IDappareille est une nouvelle clé
+Contrainte_appareille_tension_batterie		NWL	appareille (IDappareille) et tension_batterie (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et tension_batterie (IDappareille)
+Contrainte_bloc_pv_appareille		NWL	bloc_pv (IDbloc_pv) et appareille (IDbloc_pv)	Nouvelle liaison entre les fichiers bloc_pv (IDbloc_pv) et appareille (IDbloc_pv)

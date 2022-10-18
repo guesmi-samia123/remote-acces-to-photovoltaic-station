@@ -1,0 +1,36 @@
+//MO004-005.TXT ANA00004 TO ANA00005
+notification_systeme		TAR	135	nouvelle taille enregistrement : 135
+notification_systeme	Date_heure_ins	RUB+		Date_heure_ins est une nouvelle clé
+solution		NFI		nouveau fichier
+panne		TAR	136	nouvelle taille enregistrement : 136
+panne	Date_heure_ins	RUB+		Date_heure_ins est une nouvelle clé
+archive_panne		TAR	25	nouvelle taille enregistrement : 25
+archive_panne	Date_heure_ins	RUB+		Date_heure_ins est une nouvelle clé
+batterie		NFI		nouveau fichier
+onduleur		TAR	47	nouvelle taille enregistrement : 47
+onduleur	Date_heure_ins	RUB+		Date_heure_ins est une nouvelle clé
+environement_installation		TAR	143	nouvelle taille enregistrement : 143
+environement_installation	Date_heure_ins	RUB+		Date_heure_ins est une nouvelle clé
+statistique		TAR	396	nouvelle taille enregistrement : 396
+statistique	Date_heure_ins	RUB+		Date_heure_ins est une nouvelle clé
+date_heure		TAR	17	nouvelle taille enregistrement : 17
+date_heure	date_heure_ins	RUB+		date_heure_ins est une nouvelle clé
+date_heure	dat	RUB-		la clé dat est supprimée
+date_heure	heure	RUB-		la clé heure est supprimée
+rapport_installation		NFI		nouveau fichier
+Contrainte_superviseur_notification_systeme		NWL	superviseur (IDsuperviseur) et notification_systeme_superviseur (IDsuperviseur)	Nouvelle liaison entre les fichiers superviseur (IDsuperviseur) et notification_systeme_superviseur (IDsuperviseur)
+Contrainte_notification_user_superviseur		NWL	superviseur (IDsuperviseur) et notification_user (IDsuperviseur)	Nouvelle liaison entre les fichiers superviseur (IDsuperviseur) et notification_user (IDsuperviseur)
+Contrainte_installation_rapport_installation		NWL	installation (IDinstallation) et rapport_installation (IDinstallation)	Nouvelle liaison entre les fichiers installation (IDinstallation) et rapport_installation (IDinstallation)
+Contrainte_panne_solution		NWL	panne (IDpanne) et solution (IDpanne)	Nouvelle liaison entre les fichiers panne (IDpanne) et solution (IDpanne)
+Contrainte_batterie_date_heure		NWL	date_heure (date_heure_ins) et batterie (Date_heure_ins)	Nouvelle liaison entre les fichiers date_heure (date_heure_ins) et batterie (Date_heure_ins)
+Contrainte_date_heure_onduleur		NWL	date_heure (date_heure_ins) et onduleur (Date_heure_ins)	Nouvelle liaison entre les fichiers date_heure (date_heure_ins) et onduleur (Date_heure_ins)
+Contrainte_date_heure_archive_panne		NWL	date_heure (date_heure_ins) et archive_panne (Date_heure_ins)	Nouvelle liaison entre les fichiers date_heure (date_heure_ins) et archive_panne (Date_heure_ins)
+Contrainte_date_heure_panne		NWL	date_heure (date_heure_ins) et panne (Date_heure_ins)	Nouvelle liaison entre les fichiers date_heure (date_heure_ins) et panne (Date_heure_ins)
+Contrainte_date_heure_solution		NWL	date_heure (date_heure_ins) et solution (Date_heure_ins)	Nouvelle liaison entre les fichiers date_heure (date_heure_ins) et solution (Date_heure_ins)
+Contrainte_date_heure_notification_systeme		NWL	date_heure (date_heure_ins) et notification_systeme (Date_heure_ins)	Nouvelle liaison entre les fichiers date_heure (date_heure_ins) et notification_systeme (Date_heure_ins)
+Contrainte_date_heure_statistique		NWL	date_heure (date_heure_ins) et statistique (Date_heure_ins)	Nouvelle liaison entre les fichiers date_heure (date_heure_ins) et statistique (Date_heure_ins)
+Contrainte_date_heure_rapport_installation		NWL	date_heure (date_heure_ins) et rapport_installation (Date_heure_ins)	Nouvelle liaison entre les fichiers date_heure (date_heure_ins) et rapport_installation (Date_heure_ins)
+Contrainte_date_heure_environement_installation		NWL	date_heure (date_heure_ins) et environement_installation (Date_heure_ins)	Nouvelle liaison entre les fichiers date_heure (date_heure_ins) et environement_installation (Date_heure_ins)
+Contrainte_superviseur_notification_systeme		DEL	superviseur (IDsuperviseur) et notification_systeme_superviseur (IDsuperviseur)	Liaison supprimée entre les fichiers superviseur (IDsuperviseur) et notification_systeme_superviseur (IDsuperviseur)
+Contrainte_notification_user_superviseur		DEL	superviseur (IDsuperviseur) et notification_user (IDsuperviseur)	Liaison supprimée entre les fichiers superviseur (IDsuperviseur) et notification_user (IDsuperviseur)
+rapport_installation	file_raport	RRN		

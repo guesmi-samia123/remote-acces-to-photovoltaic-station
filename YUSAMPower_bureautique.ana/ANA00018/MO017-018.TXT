@@ -1,0 +1,2 @@
+//MO017-018.TXT ANA00017 TO ANA00018
+appareille	image_appareille	NNR	Photo	ATTENTION : la rubrique Photo a pour nouveau nom image_appareille

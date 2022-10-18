@@ -1,0 +1,7 @@
+//MO019-020.TXT ANA00019 TO ANA00020
+appareille		TAR	127	nouvelle taille enregistrement : 127
+appareille	IDbloc_pv	RUB-		la clé IDbloc_pv est supprimée
+bloc_pv_appareille		NFI		nouveau fichier
+Contrainte_bloc_pv_appareille		NWL	bloc_pv (IDbloc_pv) et bloc_pv_appareille (IDbloc_pv)	Nouvelle liaison entre les fichiers bloc_pv (IDbloc_pv) et bloc_pv_appareille (IDbloc_pv)
+Contrainte_appareille_bloc_pv		NWL	appareille (IDappareille) et bloc_pv_appareille (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et bloc_pv_appareille (IDappareille)
+Contrainte_bloc_pv_appareille		DEL	bloc_pv (IDbloc_pv) et appareille (IDbloc_pv)	Liaison supprimée entre les fichiers bloc_pv (IDbloc_pv) et appareille (IDbloc_pv)

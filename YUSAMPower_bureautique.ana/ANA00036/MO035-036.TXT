@@ -1,0 +1,3 @@
+//MO035-036.TXT ANA00035 TO ANA00036
+intensite_pv		TAR	101	nouvelle taille enregistrement : 101
+intensite_pv	etat_courant	CNW	Chaîne$Entier non signé sur 1 octet	la rubrique etat_courant a pour nouveau type Chaîne

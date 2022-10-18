@@ -1,0 +1,3 @@
+//MO044-045.TXT ANA00044 TO ANA00045
+superviseur		TAR	506	nouvelle taille enregistrement : 506
+superviseur	IDintervenant	RUB-		la clé IDintervenant est supprimée

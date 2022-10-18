@@ -1,0 +1,3 @@
+//MO021-022.TXT ANA00021 TO ANA00022
+appareille		TAR	131	nouvelle taille enregistrement : 131
+appareille	NUM_BLOC	RUB+		NUM_BLOC est une nouvelle rubrique

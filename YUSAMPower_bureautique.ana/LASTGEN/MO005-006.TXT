@@ -1,0 +1,74 @@
+//MO005-006.TXT ANA00005 TO ANA00006
+superviseur		TAR	396	nouvelle taille enregistrement : 396
+superviseur	fonction_user	RUB+		fonction_user est une nouvelle rubrique
+bloc_pv		TAR	25	nouvelle taille enregistrement : 25
+bloc_pv	numero_bloc	RUB+		numero_bloc est une nouvelle rubrique
+solution		TAR	136	nouvelle taille enregistrement : 136
+solution	date_creation	RUB+		date_creation est une nouvelle rubrique
+solution	IDpanne	RUB+		IDpanne est une nouvelle clé
+solution	IDpanne	RUB-		la clé IDpanne est supprimée
+solution	Date_heure_ins	RUB-		la clé Date_heure_ins est supprimée
+panne	dat_panne	RUB+		dat_panne est une nouvelle rubrique
+panne	IDappareille	RUB+		IDappareille est une nouvelle clé
+panne	IDappareille	RUB-		la clé IDappareille est supprimée
+panne	Date_heure_ins	RUB-		la clé Date_heure_ins est supprimée
+archive_panne		TAR	179	nouvelle taille enregistrement : 179
+archive_panne	date_archive	RUB+		date_archive est une nouvelle rubrique
+archive_panne	reference	RUB+		reference est une nouvelle rubrique
+archive_panne	nom_appareille	RUB+		nom_appareille est une nouvelle rubrique
+archive_panne	type_panne	RUB+		type_panne est une nouvelle rubrique
+archive_panne	Date_heure_ins	RUB-		la clé Date_heure_ins est supprimée
+appareille		TAR	212	nouvelle taille enregistrement : 212
+appareille	tension_batterie	RUB+		tension_batterie est une nouvelle rubrique
+appareille	intensite_pv	RUB+		intensite_pv est une nouvelle rubrique
+appareille	puissance_pv	RUB+		puissance_pv est une nouvelle rubrique
+appareille	tension_pv	RUB+		tension_pv est une nouvelle rubrique
+appareille	temperature_pv	RUB+		temperature_pv est une nouvelle rubrique
+appareille	etat_courant	RUB+		etat_courant est une nouvelle rubrique
+appareille	IDbloc_pv	RUB+		IDbloc_pv est une nouvelle clé
+appareille	date_heure_var	RUB+		date_heure_var est une nouvelle rubrique
+environement_installation		TAR	135	nouvelle taille enregistrement : 135
+environement_installation	Date_heure_ins	CLE-*		la rubrique Date_heure_ins n'est plus une clé
+environement_installation	IDinstallation	RUB-		la clé IDinstallation est supprimée
+statistique		TAR	389	nouvelle taille enregistrement : 389
+statistique	date_stat	RUB+		date_stat est une nouvelle rubrique
+statistique	IDinstallation	RUB-		la clé IDinstallation est supprimée
+statistique	Date_heure_ins	RUB-		la clé Date_heure_ins est supprimée
+rapport_installation		TAR	389	nouvelle taille enregistrement : 389
+rapport_installation	dat_rapport	RUB+		dat_rapport est une nouvelle rubrique
+rapport_installation	IDinstallation	RUB-		la clé IDinstallation est supprimée
+rapport_installation	Date_heure_ins	RUB-		la clé Date_heure_ins est supprimée
+historique		NFI		nouveau fichier
+notification_systeme		FIC-	notification_systeme	Fichier supprimé notification_systeme
+notification_user		FIC-	notification_user	Fichier supprimé notification_user
+administrateur		FIC-	administrateur	Fichier supprimé administrateur
+session		FIC-	session	Fichier supprimé session
+batterie		FIC-	batterie	Fichier supprimé batterie
+onduleur		FIC-	onduleur	Fichier supprimé onduleur
+date_heure		FIC-	date_heure	Fichier supprimé date_heure
+notification_systeme_superviseur		FIC-	notification_systeme_superviseur	Fichier supprimé notification_systeme_superviseur
+Contrainte_appareille_panne		NWL	appareille (IDappareille) et panne (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et panne (IDappareille)
+Contrainte_panne_solution		NWL	panne (IDpanne) et solution (IDpanne)	Nouvelle liaison entre les fichiers panne (IDpanne) et solution (IDpanne)
+Contrainte_bloc_pv_appareille		NWL	bloc_pv (IDbloc_pv) et appareille (IDbloc_pv)	Nouvelle liaison entre les fichiers bloc_pv (IDbloc_pv) et appareille (IDbloc_pv)
+Contrainte_evenement_notif_notification_systeme		DEL	evenement_notif (IDevenement_notif) et notification_systeme (IDevenement_notif)	Liaison supprimée entre les fichiers evenement_notif (IDevenement_notif) et notification_systeme (IDevenement_notif)
+Contrainte_notification_systeme_superviseur		DEL	notification_systeme (IDnotification_systeme) et notification_systeme_superviseur (IDnotification_systeme)	Liaison supprimée entre les fichiers notification_systeme (IDnotification_systeme) et notification_systeme_superviseur (IDnotification_systeme)
+Contrainte_superviseur_notification_systeme		DEL	superviseur (IDsuperviseur) et notification_systeme_superviseur (IDsuperviseur)	Liaison supprimée entre les fichiers superviseur (IDsuperviseur) et notification_systeme_superviseur (IDsuperviseur)
+Contrainte_notification_user_superviseur		DEL	superviseur (IDsuperviseur) et notification_user (IDsuperviseur)	Liaison supprimée entre les fichiers superviseur (IDsuperviseur) et notification_user (IDsuperviseur)
+Contrainte_superviseur_session		DEL	superviseur (IDsuperviseur) et session (IDsuperviseur)	Liaison supprimée entre les fichiers superviseur (IDsuperviseur) et session (IDsuperviseur)
+Contrainte_panne_appareille		DEL	appareille (IDappareille) et panne (IDappareille)	Liaison supprimée entre les fichiers appareille (IDappareille) et panne (IDappareille)
+Contrainte_installation_environement_installation		DEL	installation (IDinstallation) et environement_installation (IDinstallation)	Liaison supprimée entre les fichiers installation (IDinstallation) et environement_installation (IDinstallation)
+Contrainte_installation_statistique		DEL	installation (IDinstallation) et statistique (IDinstallation)	Liaison supprimée entre les fichiers installation (IDinstallation) et statistique (IDinstallation)
+Contrainte_installation_rapport_installation		DEL	installation (IDinstallation) et rapport_installation (IDinstallation)	Liaison supprimée entre les fichiers installation (IDinstallation) et rapport_installation (IDinstallation)
+Contrainte_panne_solution		DEL	panne (IDpanne) et solution (IDpanne)	Liaison supprimée entre les fichiers panne (IDpanne) et solution (IDpanne)
+Contrainte_batterie_date_heure		DEL	date_heure (date_heure_ins) et batterie (Date_heure_ins)	Liaison supprimée entre les fichiers date_heure (date_heure_ins) et batterie (Date_heure_ins)
+Contrainte_date_heure_onduleur		DEL	date_heure (date_heure_ins) et onduleur (Date_heure_ins)	Liaison supprimée entre les fichiers date_heure (date_heure_ins) et onduleur (Date_heure_ins)
+Contrainte_date_heure_archive_panne		DEL	date_heure (date_heure_ins) et archive_panne (Date_heure_ins)	Liaison supprimée entre les fichiers date_heure (date_heure_ins) et archive_panne (Date_heure_ins)
+Contrainte_date_heure_panne		DEL	date_heure (date_heure_ins) et panne (Date_heure_ins)	Liaison supprimée entre les fichiers date_heure (date_heure_ins) et panne (Date_heure_ins)
+Contrainte_date_heure_solution		DEL	date_heure (date_heure_ins) et solution (Date_heure_ins)	Liaison supprimée entre les fichiers date_heure (date_heure_ins) et solution (Date_heure_ins)
+Contrainte_date_heure_notification_systeme		DEL	date_heure (date_heure_ins) et notification_systeme (Date_heure_ins)	Liaison supprimée entre les fichiers date_heure (date_heure_ins) et notification_systeme (Date_heure_ins)
+Contrainte_date_heure_statistique		DEL	date_heure (date_heure_ins) et statistique (Date_heure_ins)	Liaison supprimée entre les fichiers date_heure (date_heure_ins) et statistique (Date_heure_ins)
+Contrainte_date_heure_rapport_installation		DEL	date_heure (date_heure_ins) et rapport_installation (Date_heure_ins)	Liaison supprimée entre les fichiers date_heure (date_heure_ins) et rapport_installation (Date_heure_ins)
+Contrainte_date_heure_environement_installation		DEL	date_heure (date_heure_ins) et environement_installation (Date_heure_ins)	Liaison supprimée entre les fichiers date_heure (date_heure_ins) et environement_installation (Date_heure_ins)
+appareille	etat_courant	RRN		
+superviseur	fonction_user	RRN		
+historique	personne_saisie	RRN		

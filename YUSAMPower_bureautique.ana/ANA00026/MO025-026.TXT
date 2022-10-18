@@ -1,0 +1,2 @@
+//MO025-026.TXT ANA00025 TO ANA00026
+bloc_pv_appareille	IDbloc_pv_IDappareille1	RUB-		la clé IDbloc_pv_IDappareille1 est supprimée

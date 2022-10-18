@@ -1,0 +1,43 @@
+//MO006-007.TXT ANA00006 TO ANA00007
+appareille		TAR	135	nouvelle taille enregistrement : 135
+appareille	IDbloc_pv	RUB+		IDbloc_pv est une nouvelle clé
+appareille	tension_batterie	RUB-		la rubrique tension_batterie est supprimée
+appareille	intensite_pv	RUB-		la rubrique intensite_pv est supprimée
+appareille	puissance_pv	RUB-		la rubrique puissance_pv est supprimée
+appareille	tension_pv	RUB-		la rubrique tension_pv est supprimée
+appareille	temperature_pv	RUB-		la rubrique temperature_pv est supprimée
+appareille	etat_courant	RUB-		la rubrique etat_courant est supprimée
+appareille	IDbloc_pv	RUB-		la clé IDbloc_pv est supprimée
+appareille	date_heure_var	RUB-		la rubrique date_heure_var est supprimée
+valeur_appareille		NNF*	environement_installation	nouveau nom valeur_appareille
+valeur_appareille		TAR	196	nouvelle taille enregistrement : 196
+valeur_appareille	tension_batterie	RUB+		tension_batterie est une nouvelle rubrique
+valeur_appareille	intensite_pv	RUB+		intensite_pv est une nouvelle rubrique
+valeur_appareille	puissance_pv	RUB+		puissance_pv est une nouvelle rubrique
+valeur_appareille	tension_pv	RUB+		tension_pv est une nouvelle rubrique
+valeur_appareille	temperature_pv	RUB+		temperature_pv est une nouvelle rubrique
+valeur_appareille	etat_courant	RUB+		etat_courant est une nouvelle rubrique
+valeur_appareille	Date_heure_ins	RUB-		la rubrique Date_heure_ins est supprimée
+temperature		NFI		nouveau fichier
+vitesse_vente		NFI		nouveau fichier
+hummidite		NFI		nouveau fichier
+pluviometrie		NFI		nouveau fichier
+tension_batterie		NFI		nouveau fichier
+intensite_pv		NFI		nouveau fichier
+puissance_pv		NFI		nouveau fichier
+temperature_pv		NFI		nouveau fichier
+evenement_notif		FIC-	evenement_notif	Fichier supprimé evenement_notif
+Contrainte_appareille_vitesse_vente		NWL	appareille (IDappareille) et vitesse_vente (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et vitesse_vente (IDappareille)
+Contrainte_bloc_pv_appareille		NWL	bloc_pv (IDbloc_pv) et appareille (IDbloc_pv)	Nouvelle liaison entre les fichiers bloc_pv (IDbloc_pv) et appareille (IDbloc_pv)
+Contrainte_appareille_temperature		NWL	appareille (IDappareille) et temperature (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et temperature (IDappareille)
+Contrainte_appareille_pluviometrie		NWL	appareille (IDappareille) et pluviometrie (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et pluviometrie (IDappareille)
+Contrainte_appareille_hummidite		NWL	appareille (IDappareille) et hummidite (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et hummidite (IDappareille)
+Contrainte_appareille_temperature_pv		NWL	appareille (IDappareille) et temperature_pv (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et temperature_pv (IDappareille)
+Contrainte_appareille_intensite_pv		NWL	appareille (IDappareille) et intensite_pv (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et intensite_pv (IDappareille)
+Contrainte_appareille_tension_batterie		NWL	appareille (IDappareille) et tension_batterie (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et tension_batterie (IDappareille)
+Contrainte_appareille_puissance_pv		NWL	appareille (IDappareille) et puissance_pv (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et puissance_pv (IDappareille)
+Contrainte_bloc_pv_appareille		DEL	bloc_pv (IDbloc_pv) et appareille (IDbloc_pv)	Liaison supprimée entre les fichiers bloc_pv (IDbloc_pv) et appareille (IDbloc_pv)
+appareille		FRN		
+valeur_appareille		FRN		
+valeur_appareille	etat_courant	RRN		
+intensite_pv	etat_courant	RRN		

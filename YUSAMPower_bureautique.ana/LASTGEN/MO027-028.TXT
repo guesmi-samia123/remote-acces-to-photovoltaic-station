@@ -1,0 +1,40 @@
+//MO027-028.TXT ANA00027 TO ANA00028
+bloc_pv		TAR	72	nouvelle taille enregistrement : 72
+bloc_pv	IDbloc_pv	RDP+		
+bloc_pv	indice_bloc	NNR	numero_bloc	ATTENTION : la clé numero_bloc a pour nouveau nom indice_bloc
+bloc_pv	indice_bloc	CLEU*		la rubrique indice_bloc est maintenant une clé
+bloc_pv	indice_bloc	CNW	Chaîne$Entier sur 4 octets	la rubrique indice_bloc a pour nouveau type Chaîne
+bloc_pv	indice_bloc	RDP+		
+panne		TAR	179	nouvelle taille enregistrement : 179
+panne	ref_appareille	RUB+		ref_appareille est une nouvelle clé
+panne	IDappareille	RUB-		la clé IDappareille est supprimée
+appareille		TAR	131	nouvelle taille enregistrement : 131
+appareille	ref_appareille	CLEU*		la rubrique ref_appareille est maintenant une clé
+appareille	numero_bloc	RUB+		numero_bloc est une nouvelle rubrique
+temperature		TAR	80	nouvelle taille enregistrement : 80
+temperature	nom_appareille	RUB+		nom_appareille est une nouvelle rubrique
+temperature	IDappareille	RUB-		la clé IDappareille est supprimée
+vitesse_vente		TAR	80	nouvelle taille enregistrement : 80
+vitesse_vente	nom_appareille	RUB+		nom_appareille est une nouvelle rubrique
+vitesse_vente	IDappareille	RUB-		la clé IDappareille est supprimée
+hummidite		TAR	80	nouvelle taille enregistrement : 80
+hummidite	nom_appareille	RUB+		nom_appareille est une nouvelle rubrique
+hummidite	IDappareille	RUB-		la clé IDappareille est supprimée
+pluviometrie		TAR	80	nouvelle taille enregistrement : 80
+pluviometrie	nom_appareille	RUB+		nom_appareille est une nouvelle rubrique
+pluviometrie	IDappareille	RUB-		la clé IDappareille est supprimée
+tension_batterie		TAR	80	nouvelle taille enregistrement : 80
+tension_batterie	nom_appareille	RUB+		nom_appareille est une nouvelle rubrique
+tension_batterie	IDappareille	RUB-		la clé IDappareille est supprimée
+intensite_pv		TAR	94	nouvelle taille enregistrement : 94
+intensite_pv	nom_appareille	RUB+		nom_appareille est une nouvelle rubrique
+intensite_pv	IDappareille	RUB-		la clé IDappareille est supprimée
+Contrainte_panne_solution		NWL	panne (IDpanne) et solution (IDpanne)	Nouvelle liaison entre les fichiers panne (IDpanne) et solution (IDpanne)
+Contrainte_appareille_panne		DEL	appareille (IDappareille) et panne (IDappareille)	Liaison supprimée entre les fichiers appareille (IDappareille) et panne (IDappareille)
+Contrainte_panne_solution		DEL	panne (IDpanne) et solution (IDpanne)	Liaison supprimée entre les fichiers panne (IDpanne) et solution (IDpanne)
+Contrainte_appareille_vitesse_vente		DEL	appareille (IDappareille) et vitesse_vente (IDappareille)	Liaison supprimée entre les fichiers appareille (IDappareille) et vitesse_vente (IDappareille)
+Contrainte_appareille_temperature		DEL	appareille (IDappareille) et temperature (IDappareille)	Liaison supprimée entre les fichiers appareille (IDappareille) et temperature (IDappareille)
+Contrainte_appareille_pluviometrie		DEL	appareille (IDappareille) et pluviometrie (IDappareille)	Liaison supprimée entre les fichiers appareille (IDappareille) et pluviometrie (IDappareille)
+Contrainte_appareille_hummidite		DEL	appareille (IDappareille) et hummidite (IDappareille)	Liaison supprimée entre les fichiers appareille (IDappareille) et hummidite (IDappareille)
+Contrainte_appareille_intensite_pv		DEL	appareille (IDappareille) et intensite_pv (IDappareille)	Liaison supprimée entre les fichiers appareille (IDappareille) et intensite_pv (IDappareille)
+Contrainte_appareille_tension_batterie		DEL	appareille (IDappareille) et tension_batterie (IDappareille)	Liaison supprimée entre les fichiers appareille (IDappareille) et tension_batterie (IDappareille)

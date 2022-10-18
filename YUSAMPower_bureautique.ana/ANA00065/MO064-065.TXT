@@ -1,0 +1,4 @@
+//MO064-065.TXT ANA00064 TO ANA00065
+notification	nb_notiff	NNR	nb	ATTENTION : la rubrique nb a pour nouveau nom nb_notiff
+Contrainte_superviseur_notification		NWL	superviseur (IDsuperviseur) et notification (IDsuperviseur)	Nouvelle liaison entre les fichiers superviseur (IDsuperviseur) et notification (IDsuperviseur)
+Contrainte_superviseur_notification		DEL	superviseur (IDsuperviseur) et notification (IDsuperviseur)	Liaison supprimée entre les fichiers superviseur (IDsuperviseur) et notification (IDsuperviseur)

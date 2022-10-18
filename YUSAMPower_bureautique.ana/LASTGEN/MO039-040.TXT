@@ -1,0 +1,4 @@
+//MO039-040.TXT ANA00039 TO ANA00040
+superviseur		TAR	506	nouvelle taille enregistrement : 506
+superviseur	login	RUB+		login est une nouvelle rubrique
+superviseur	pwd	RUB+		pwd est une nouvelle rubrique

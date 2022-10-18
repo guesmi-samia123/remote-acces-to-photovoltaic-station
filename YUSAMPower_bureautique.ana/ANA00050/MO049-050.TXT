@@ -1,0 +1,4 @@
+//MO049-050.TXT ANA00049 TO ANA00050
+solution		TAR	144	nouvelle taille enregistrement : 144
+solution	IDsuperviseur	RUB+		IDsuperviseur est une nouvelle clé
+Contrainte_superviseur_solution		NWL	superviseur (IDsuperviseur) et solution (IDsuperviseur)	Nouvelle liaison entre les fichiers superviseur (IDsuperviseur) et solution (IDsuperviseur)

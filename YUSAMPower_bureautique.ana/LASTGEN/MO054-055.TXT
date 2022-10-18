@@ -1,0 +1,3 @@
+//MO054-055.TXT ANA00054 TO ANA00055
+intensite_pv		TAR	107	nouvelle taille enregistrement : 107
+intensite_pv	dat_intensite_pv	CNW	Date (aaaammjj)$Date et Heure (aaaammjjhhmmssccc)	la rubrique dat_intensite_pv a pour nouveau type Date (aaaammjj)

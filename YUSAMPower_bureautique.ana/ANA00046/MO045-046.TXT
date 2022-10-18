@@ -1,0 +1,4 @@
+//MO045-046.TXT ANA00045 TO ANA00046
+superviseur	nom_user	RDP+		
+superviseur	prenom_user	CLEN*		la rubrique prenom_user est maintenant une clé
+superviseur	prenom_user	RDP+		

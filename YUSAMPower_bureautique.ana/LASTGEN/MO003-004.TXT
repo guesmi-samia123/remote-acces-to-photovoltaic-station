@@ -1,0 +1,18 @@
+//MO003-004.TXT ANA00003 TO ANA00004
+notification_systeme		TAR	127	nouvelle taille enregistrement : 127
+notification_systeme	IDdate_heure	RUB-		la clé IDdate_heure est supprimée
+panne		TAR	128	nouvelle taille enregistrement : 128
+panne	IDdate_heure	RUB-		la clé IDdate_heure est supprimée
+archive_panne		TAR	17	nouvelle taille enregistrement : 17
+archive_panne	IDdate_heure	RUB-		la clé IDdate_heure est supprimée
+onduleur		TAR	38	nouvelle taille enregistrement : 38
+onduleur	IDdate_heure	RUB-		la clé IDdate_heure est supprimée
+environement_installation		TAR	135	nouvelle taille enregistrement : 135
+environement_installation	IDdate_heure	RUB-		la clé IDdate_heure est supprimée
+statistique		TAR	388	nouvelle taille enregistrement : 388
+statistique	IDdate_heure	RUB-		la clé IDdate_heure est supprimée
+solution		FIC-	solution	Fichier supprimé solution
+batterie		FIC-	batterie	Fichier supprimé batterie
+rapport_installation		FIC-	rapport_installation	Fichier supprimé rapport_installation
+Contrainte_solution_panne		DEL	panne (IDpanne) et solution (IDpanne)	Liaison supprimée entre les fichiers panne (IDpanne) et solution (IDpanne)
+Contrainte_installation_rapport_installation		DEL	installation (IDinstallation) et rapport_installation (IDinstallation)	Liaison supprimée entre les fichiers installation (IDinstallation) et rapport_installation (IDinstallation)

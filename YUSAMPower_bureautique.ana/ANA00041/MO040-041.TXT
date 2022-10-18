@@ -1,0 +1,2 @@
+//MO040-041.TXT ANA00040 TO ANA00041
+superviseur	login	CLEU*		la rubrique login est maintenant une clé

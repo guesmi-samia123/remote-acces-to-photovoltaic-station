@@ -1,0 +1,6 @@
+//MO046-047.TXT ANA00046 TO ANA00047
+intervenant		TAR	151	nouvelle taille enregistrement : 151
+intervenant	IDinstallation	RUB+		IDinstallation est une nouvelle clé
+intervenant	IDbloc_pv	RUB+		IDbloc_pv est une nouvelle clé
+Contrainte_installation_intervenant		NWL	installation (IDinstallation) et intervenant (IDinstallation)	Nouvelle liaison entre les fichiers installation (IDinstallation) et intervenant (IDinstallation)
+Contrainte_bloc_pv_intervenant		NWL	bloc_pv (IDbloc_pv) et intervenant (IDbloc_pv)	Nouvelle liaison entre les fichiers bloc_pv (IDbloc_pv) et intervenant (IDbloc_pv)

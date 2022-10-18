@@ -1,0 +1,4 @@
+//MO020-021.TXT ANA00020 TO ANA00021
+bloc_pv_appareille		FIC-	bloc_pv_appareille	Fichier supprimé bloc_pv_appareille
+Contrainte_bloc_pv_appareille		DEL	bloc_pv (IDbloc_pv) et bloc_pv_appareille (IDbloc_pv)	Liaison supprimée entre les fichiers bloc_pv (IDbloc_pv) et bloc_pv_appareille (IDbloc_pv)
+Contrainte_appareille_bloc_pv		DEL	appareille (IDappareille) et bloc_pv_appareille (IDappareille)	Liaison supprimée entre les fichiers appareille (IDappareille) et bloc_pv_appareille (IDappareille)

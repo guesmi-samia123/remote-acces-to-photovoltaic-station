@@ -1,0 +1,29 @@
+//MO001-002.TXT ANA00001 TO ANA00002
+notification_systeme		TAR	127	nouvelle taille enregistrement : 127
+notification_systeme	IDevenement_notif	RUB+		IDevenement_notif est une nouvelle clé
+notification_user		TAR	25	nouvelle taille enregistrement : 25
+notification_user	IDsuperviseur	RUB+		IDsuperviseur est une nouvelle clé
+session		TAR	109	nouvelle taille enregistrement : 109
+session	IDsuperviseur	RUB+		IDsuperviseur est une nouvelle clé
+solution		TAR	127	nouvelle taille enregistrement : 127
+solution	IDpanne	RUB+		IDpanne est une nouvelle clé
+panne		TAR	128	nouvelle taille enregistrement : 128
+panne	IDappareille	RUB+		IDappareille est une nouvelle clé
+environement_installation		TAR	143	nouvelle taille enregistrement : 143
+environement_installation	IDinstallation	RUB+		IDinstallation est une nouvelle clé
+environement_installation	IDdate_heure	RUB+		IDdate_heure est une nouvelle clé
+statistique		TAR	388	nouvelle taille enregistrement : 388
+statistique	IDinstallation	RUB+		IDinstallation est une nouvelle clé
+rapport_installation		TAR	388	nouvelle taille enregistrement : 388
+rapport_installation	IDinstallation	RUB+		IDinstallation est une nouvelle clé
+notification_systeme_superviseur		NFI		nouveau fichier
+Contrainte_evenement_notif_notification_systeme		NWL	evenement_notif (IDevenement_notif) et notification_systeme (IDevenement_notif)	Nouvelle liaison entre les fichiers evenement_notif (IDevenement_notif) et notification_systeme (IDevenement_notif)
+Contrainte_notification_systeme_superviseur		NWL	notification_systeme (IDnotification_systeme) et notification_systeme_superviseur (IDnotification_systeme)	Nouvelle liaison entre les fichiers notification_systeme (IDnotification_systeme) et notification_systeme_superviseur (IDnotification_systeme)
+Contrainte_superviseur_notification_systeme		NWL	superviseur (IDsuperviseur) et notification_systeme_superviseur (IDsuperviseur)	Nouvelle liaison entre les fichiers superviseur (IDsuperviseur) et notification_systeme_superviseur (IDsuperviseur)
+Contrainte_notification_user_superviseur		NWL	superviseur (IDsuperviseur) et notification_user (IDsuperviseur)	Nouvelle liaison entre les fichiers superviseur (IDsuperviseur) et notification_user (IDsuperviseur)
+Contrainte_superviseur_session		NWL	superviseur (IDsuperviseur) et session (IDsuperviseur)	Nouvelle liaison entre les fichiers superviseur (IDsuperviseur) et session (IDsuperviseur)
+Contrainte_solution_panne		NWL	panne (IDpanne) et solution (IDpanne)	Nouvelle liaison entre les fichiers panne (IDpanne) et solution (IDpanne)
+Contrainte_panne_appareille		NWL	appareille (IDappareille) et panne (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et panne (IDappareille)
+Contrainte_installation_environement_installation		NWL	installation (IDinstallation) et environement_installation (IDinstallation)	Nouvelle liaison entre les fichiers installation (IDinstallation) et environement_installation (IDinstallation)
+Contrainte_installation_rapport_installation		NWL	installation (IDinstallation) et rapport_installation (IDinstallation)	Nouvelle liaison entre les fichiers installation (IDinstallation) et rapport_installation (IDinstallation)
+Contrainte_installation_statistique		NWL	installation (IDinstallation) et statistique (IDinstallation)	Nouvelle liaison entre les fichiers installation (IDinstallation) et statistique (IDinstallation)

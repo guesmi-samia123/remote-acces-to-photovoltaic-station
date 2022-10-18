@@ -1,0 +1,5 @@
+//MO028-029.TXT ANA00028 TO ANA00029
+pluviometrie		TAR	37	nouvelle taille enregistrement : 37
+pluviometrie	IDappareille	RUB+		IDappareille est une nouvelle clé
+pluviometrie	nom_appareille	RUB-		la rubrique nom_appareille est supprimée
+Contrainte_appareille_pluviometrie		NWL	appareille (IDappareille) et pluviometrie (IDappareille)	Nouvelle liaison entre les fichiers appareille (IDappareille) et pluviometrie (IDappareille)

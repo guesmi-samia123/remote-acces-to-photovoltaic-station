@@ -1,0 +1,4 @@
+//MO048-049.TXT ANA00048 TO ANA00049
+intervenant		TAR	143	nouvelle taille enregistrement : 143
+intervenant	IDinstallation	RUB-		la clé IDinstallation est supprimée
+Contrainte_installation_intervenant		DEL	installation (IDinstallation) et intervenant (IDinstallation)	Liaison supprimée entre les fichiers installation (IDinstallation) et intervenant (IDinstallation)

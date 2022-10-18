@@ -1,0 +1,6 @@
+//MO050-051.TXT ANA00050 TO ANA00051
+intervenant		TAR	135	nouvelle taille enregistrement : 135
+intervenant		IDE-*		fichier sans identifiant
+intervenant	IDbloc_pv	RDP+		
+intervenant	IDintervenant	RUB-		la clé IDintervenant est supprimée
+Contrainte_bloc_pv_intervenant		DEL	bloc_pv (IDbloc_pv) et intervenant (IDbloc_pv)	Liaison supprimée entre les fichiers bloc_pv (IDbloc_pv) et intervenant (IDbloc_pv)

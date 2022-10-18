@@ -1,0 +1,4 @@
+//MO056-057.TXT ANA00056 TO ANA00057
+environnement		TAR	62	nouvelle taille enregistrement : 62
+environnement	date	RUB+		date est une nouvelle rubrique
+environnement	heure	RUB+		heure est une nouvelle rubrique
